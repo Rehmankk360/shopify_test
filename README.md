@@ -17,7 +17,7 @@ Open SQL shell and run these commands by order:
 <p>3- Update your .env file accordingly.</p>
 
 ## Set up Ngrok tunnel for webhooks
-
+Ngrok is used to redirect all the user traffic in the internet to your local network address. This is important for webhooks in local enviroment. 
 Once you install ngrok run this command in your ngrok terminal to start it:
 ```bash
 $ ngrok http 3000 
