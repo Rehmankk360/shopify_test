@@ -25,6 +25,8 @@ $ ngrok http 3000
 Then copy the gennerated tunnel URL It will be something like this ```https://f98c-223-123-95-88.ngrok-free.app```
 <p>Add this tunnel URL to your shopify store webhooks notifications if you are using your own store. If not then you can ping me I will add it to the already configured store.</p>
 
+
+
 ## Running the app
 
 Install the dependencies
@@ -35,3 +37,8 @@ Start the server
 ```bash
 $ yarn start
 ```
+
+## Email provider mailtrap (optional)
+<p> If you want to see the email inbox then go to https://mailtrap.io/.</p> 
+<p> Create an account and inbox. Select nodemailer in integerations.</p>
+<p> Copy email and password and update inside .env file.</p>
